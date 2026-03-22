@@ -10,7 +10,7 @@ const Header = () => {
 	
 	return (
 		<header>
-			<header className="main-container inner">
+			<div className="main-container inner">
 				<Link href="/">
 					<Image src="logo.svg" alt="Coinpulse logo" width={132} height={40} />
 				</Link>
@@ -25,7 +25,7 @@ const Header = () => {
 						'is-active': pathname === '/coins',
 					})}>All Coins</Link>
 				</nav>
-			</header>
+			</div>
 		</header>
 	)
 }
